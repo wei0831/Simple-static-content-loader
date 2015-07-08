@@ -48,10 +48,9 @@ module.exports = function(request, response) {
       case '.png':
       case '.gif':
       case '.bmp':
-        console.log("image/" + ext.slice(1,4));
         fs.readFile(default_imgage_folder + request.url, function (errors, contents){
             if(errors) return errorpage(response);
-            responsecontent(response, 200, "image/" + ext.slice(1,4), null, contents);
+            responsecontent(response, 200, "image/" + ext.slice(1,5), null, contents);
         });
         break;
       case '.mp3' :
