@@ -1,5 +1,6 @@
 # Simple Static Content Loader
 Simple Static Content Loader for NodeJS
+Modified Date: 07/08/2015
 
 ## Usage
 ```javascript
